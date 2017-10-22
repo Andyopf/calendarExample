@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		628187D51F9B1424002209DE /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 628187D41F9B1424002209DE /* CustomCell.swift */; };
 		62983B871F9A65490074EAA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62983B861F9A65490074EAA6 /* AppDelegate.swift */; };
 		62983B891F9A65490074EAA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62983B881F9A65490074EAA6 /* ViewController.swift */; };
 		62983B8C1F9A65490074EAA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62983B8A1F9A65490074EAA6 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		3C03A42EE8731686BB75EE75 /* Pods-calendarExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calendarExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-calendarExample/Pods-calendarExample.debug.xcconfig"; sourceTree = "<group>"; };
 		546EEA86E2C92A1C1CDCF657 /* Pods-calendarExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calendarExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-calendarExample/Pods-calendarExample.release.xcconfig"; sourceTree = "<group>"; };
+		628187D41F9B1424002209DE /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		62983B831F9A65490074EAA6 /* calendarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calendarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62983B861F9A65490074EAA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62983B881F9A65490074EAA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				62983B921F9A65490074EAA6 /* LaunchScreen.storyboard */,
 				62983B951F9A65490074EAA6 /* Info.plist */,
 				62983B8D1F9A65490074EAA6 /* calendarExample.xcdatamodeld */,
+				628187D41F9B1424002209DE /* CustomCell.swift */,
 			);
 			path = calendarExample;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 			files = (
 				62983B8F1F9A65490074EAA6 /* calendarExample.xcdatamodeld in Sources */,
 				62983B891F9A65490074EAA6 /* ViewController.swift in Sources */,
+				628187D51F9B1424002209DE /* CustomCell.swift in Sources */,
 				62983B871F9A65490074EAA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
